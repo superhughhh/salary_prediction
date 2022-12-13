@@ -1,0 +1,36 @@
+Colonne : 'job_title'
+
+valeur possible : ['Data Scientist' 'Data Engineering Manager' 'Principal Data Scientist'
+ 'Data Analytics Engineer' 'Data Science Consultant'
+ 'Machine Learning Engineer' 'Director of Data Science' 'Data Analyst'
+ 'Data Engineer' 'Business Data Analyst' 'BI Data Analyst'
+ 'Big Data Engineer' 'Data Science Manager' 'Head of Data'
+ 'Machine Learning Scientist' 'Data Analytics Manager' 'Data Architect'
+ 'Head of Data Science' 'Analytics Engineer' 'AI Scientist'
+ 'Computer Vision Engineer' 'Research Scientist' 'Applied Data Scientist'
+ 'Lead Data Engineer']
+
+Colonne : 'company_size'
+
+valeur possible : ['Large' 'Small' 'Medium']
+
+Colonne : 'company_country_location'
+
+valeur possible : ['Germany' 'United States of America'
+ 'United Kingdom of Great Britain and Northern Ireland' 'Canada' 'France'
+ 'Spain' 'India' 'Greece']
+
+Colonne : 'experience_level'
+
+valeur possible : ['Intermediate' 'Senior' 'Junior' 'Expert']
+
+Colonne : 'employee_country_residence'
+
+valeur possible : ['Germany' 'France' 'Pakistan' 'Netherlands' 'United States of America'
+ 'India' 'Greece' 'Spain' 'Brazil'
+ 'United Kingdom of Great Britain and Northern Ireland' 'Poland' 'Canada']
+
+Colonne : 'remote_ratio'
+
+valeur possible : ['0' '50' '100']
+
