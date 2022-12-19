@@ -24,10 +24,10 @@ async def root(job_title: Job_title,
                experience_level: Experience_level,
                employee_country_residence: Employee_country_residence,
                remote_ratio: Remote_ratio):
-    
+
     predict_df = make_predict_df(job_title, company_size, company_country_location, experience_level, employee_country_residence, remote_ratio)
     infile = open('data_salary_prediction_model.plk', 'rb')
     my_model = pickle.load(infile)
     prediction = my_model.predict(predict_df)
     infile.close()
-    return {"prediction du tips en $": int(prediction[0][0])}
+    return {"prediction du salaire en $": int(prediction[0][0])}
